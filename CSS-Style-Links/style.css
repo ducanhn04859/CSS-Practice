@@ -1,0 +1,40 @@
+/*
+States:
+    a:link -> khi link chưa mở
+    a:visible  -> khi link đã mở
+    a:hover  -> khi di chuột đến đường link
+    a:active -> ấn giữ chuột trên link
+*/
+
+.link-home:link {
+    color: red;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.link-home:visited {
+    color: red;
+}
+
+.link-home:hover {
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.link-home:active {
+    color: green;
+}
+
+.register-but {
+    background-color: blanchedalmond;
+    text-decoration: none;
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 9px 23px;
+}
+
+.register-but:hover {
+    background-color: green;
+    color: white;
+}
