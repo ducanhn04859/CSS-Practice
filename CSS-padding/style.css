@@ -1,0 +1,15 @@
+/*
+Padding: khoảng cách giữa content bên trong khung với khung ngoài cùng 
+padding-top
+padding-right
+padding-bottom
+padding-left
+padding: top right bottom left ;
+padding: top left-right bottom;
+padding; top-bottom left-right;
+padding : all ; // Áp dụng cho cả 4 chiều
+*/
+
+h1 {
+    padding: 16px;
+}

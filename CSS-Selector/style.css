@@ -1,0 +1,17 @@
+p {
+    font-size: 18px;
+}
+
+#intro {
+    font-weight: bold;
+}
+
+.centre {
+    text-align: center;
+}
+
+h1,
+p {
+    color: #888888;
+    font-family: sans-serif;
+}

@@ -1,0 +1,18 @@
+/*
+Margin: khoảng cách giữa các hộp với nhau 
+margin-top
+margin-right
+margin-bottom
+margin-left
+margin: top right bottom left ;
+margin: top left-right bottom;
+margin; top-bottom left-right;
+margin: all ; // Áp dụng cho cả 4 chiều
+*/
+
+.div {
+    padding: 16px;
+    margin-bottom: 16px;
+    color: rebeccapurple;
+    font-weight: bold;
+}

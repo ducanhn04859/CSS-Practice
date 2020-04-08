@@ -1,0 +1,48 @@
+.a {
+    width: 200px;
+    font-weight: lighter;
+}
+
+.a-left {
+    text-align: left;
+}
+
+.a-center {
+    text-align: center;
+}
+
+.a-right {
+    text-align: right;
+}
+
+.a-justify {
+    text-align: justify;
+}
+
+.b-noline {
+    text-decoration: none;
+}
+
+.b-line {
+    text-decoration: underline;
+}
+
+.b-overline {
+    text-decoration: overline;
+}
+
+.b-throght {
+    text-decoration: line-through;
+}
+
+.c-upper {
+    text-transform: uppercase;
+}
+
+.c-lowe {
+    text-transform: lowercase;
+}
+
+.c-cap {
+    text-transform: capitalize;
+}

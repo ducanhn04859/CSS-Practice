@@ -1,0 +1,45 @@
+/*
+Syntax:
+    border-width: 1px
+    boder-style: solid|dotted|dash|...
+    border-color: blue
+
+Shorthand:
+    border: 1px solid blue;
+
+Note:
+    border-top-width: 1px;
+    border-right-width: 1px;
+
+    border-width: top right bottom left;
+    border-width: top left-right bottom;
+    border-width: top-bottom left-right
+
+    border-radius:
+
+*/
+
+.div {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 10px;
+    /*
+    border-width: 2px;
+    border-style: dotted;
+    border-color: brown; 
+    */
+    /*
+    border: 2px double burlywood;*/
+    /*
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 20px;
+    border-style: double;
+    border-color: brown;*/
+    border-width: 1 1 1 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+}

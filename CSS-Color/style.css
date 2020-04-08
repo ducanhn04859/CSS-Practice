@@ -1,0 +1,16 @@
+span.title {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+span.name1 {
+    color: red;
+}
+
+span.name2 {
+    color: rgb(214, 122, 127);
+}
+
+span.name3 {
+    color: rgba(34 12 64 / 0.3);
+}

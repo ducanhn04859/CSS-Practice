@@ -1,0 +1,73 @@
+/*
+Syntax:
+    background-image: url(..)
+    background-repeat: repeat-x| repeat-y| no-repeat| repeat*...
+    background-size: % | contain| cover| auto*|...
+    background-position: x y | center
+    background-ttachment: scroll* | fixed
+
+*/
+
+.div {
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-width: 1 1 1 1px;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: brown;
+}
+
+.div-transparent {
+    color: #FFFF;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-width: 1 1 1 1px;
+    border-radius: 15px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(19, 91, 138, 1) 40%, rgba(0, 212, 255, 1) 100%);
+}
+
+.div-item-parttern {
+    color: black;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-width: 1 1 1 1px;
+    border-radius: 15px;
+    background-image: url(./1_10.png);
+    background-size: 60%;
+    height: auto;
+}
+
+.div-item-image {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-width: 1 1 1 1px;
+    border-radius: 15px;
+    background-image: url(./photo-1509225770129-fbcf8a696c0b.jpeg);
+    background-size: cover;
+    height: 100px;
+}
+
+.div-item-parallax {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 16px;
+    margin-bottom: 10px;
+    border-width: 1 1 1 1px;
+    border-radius: 15px;
+    background-image: url(./quesy.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -250px 0;
+    height: 500px;
+}
