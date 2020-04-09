@@ -1,0 +1,31 @@
+/* 
+CSS combinators 
+descendant selector (space) 
+// trỏ đến đich danh mục con tỏng mục cha 
+//vd .list-2 .item-2
+child selector (>) 
+// chỉ trỏ đến những mục con trong mục cha (bỏ qua mục cháu)
+// vd: .list-1 > .item 
+adjacent sibling selector (+)
+// tìm anh em tiếp theo  - chỉ select 1 duy nhất
+// VD: .list-1 .item-2+.item
+general sibling selector (~)
+// tìm anh em tiếp theo  - chỉ select tất cả
+//.list-2 .item-1~.item
+*/
+
+
+/*.list-2 .item-2 {
+    color: red;
+}
+*/
+
+
+/*.list-1 > .item {
+    border: 1px solid grey;
+}
+*/
+
+.list-2 .item-1~.item {
+    color: red;
+}
