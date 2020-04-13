@@ -1,0 +1,117 @@
+/*
+- phan tich
+- dat ten 
+- code
+*/
+
+body {
+    font-family: sans-serif;
+}
+
+.weekly-song {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #EEEE;
+}
+
+.weekly-song .num {
+    font-size: 28px;
+    padding: 0 10px;
+}
+
+.weekly-song .info {
+    font-size: 15px;
+    flex-grow: 1;
+}
+
+.weekly-song .singer-name {
+    font-size: 13px;
+    color: #999;
+}
+
+.weekly-song .title-song {
+    margin-bottom: 8px;
+}
+
+.weekly-song .view-count {
+    font-size: 13px;
+    color: #999;
+}
+
+.new-song {
+    display: flex;
+    flex-direction: row;
+}
+
+.new-song .album-cover {
+    width: 150px;
+    height: 150px;
+    background-color: #DDD;
+    background-image: url('https://loremflickr.com/320/240');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 25px;
+}
+
+.new-song .album-cover .overlay {
+    height: 100%;
+    background: rgb(6, 3, 55);
+    background: linear-gradient(0deg, rgba(6, 3, 55, 0.3736559139784946) 0%, rgba(255, 255, 255, 1) 100%);
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 8px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.new-song .album-cover .overlay span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 10px;
+}
+
+.new-song .info {
+    margin: 20px;
+    font-size: 20px;
+}
+
+.new-song .singer-name {
+    font-size: 15px;
+    padding: 10px 0;
+    color: #AAA;
+}
+
+.new-song .view-count {
+    font-size: 15px;
+    color: #AAA;
+}
+
+.new-album {
+    width: 150px;
+    height: 150px;
+    background-color: #DDD;
+    background-image: url('https://loremflickr.com/320/240');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 60px;
+}
+
+.new-album .overlay {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    /* de an overlay*/
+}
+
+.new-album:hover .overlay {
+    opacity: 1;
+}
