@@ -1,0 +1,89 @@
+/* 
+<html context>
+ <ul class="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+    </ul>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat officia illo ducimus quia maxime, deserunt, veniam animi consequuntur beatae repellat harum dolor, deleniti odio earum? Consequatur optio commodi tempore labore.</p>
+----------------
+<CSS context>
+.menu {
+    list-style: none;
+    background-color: bisque;
+}
+
+.menu li {
+    float: left;
+    padding: 10px 16px;
+    background-color: rosybrown;
+}
+
+p {
+    clear: left;
+}
+*/
+
+.header {
+    height: 100px;
+}
+
+.sidebar {
+    float: left;
+    width: 20%;
+}
+
+.main {
+    margin-left: 20%;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.footer {
+    height: 100px;
+}
+
+.album-cover {
+    height: 150px;
+    width: 150px;
+    background-image: url('https://loremflickr.com/320/240');
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    color: white;
+    font-size: 25px;
+    float: left;
+}
+
+.overlay {
+    height: 100%;
+    background: rgb(6, 3, 55);
+    background: linear-gradient(0deg, rgba(6, 3, 55, 0.3736559139784946) 0%, rgba(255, 255, 255, 1) 100%);
+}
+
+.info {
+    margin: 20px;
+    font-size: 20px;
+    float: left;
+}
+
+.singer-name {
+    font-size: 15px;
+    padding: 10px 0;
+    color: #AAA;
+}
+
+.view-count {
+    font-size: 15px;
+    color: #AAA;
+}
+
+.new-song:after {
+    content: '';
+    display: block;
+    clear: both;
+}
