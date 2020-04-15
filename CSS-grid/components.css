@@ -1,0 +1,30 @@
+.weekly-song {
+    display: flex;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid #EEEE;
+}
+
+.weekly-song .num {
+    font-size: 28px;
+    padding: 0 10px;
+}
+
+.weekly-song .info {
+    font-size: 15px;
+    flex-grow: 1;
+}
+
+.weekly-song .singer-name {
+    font-size: 13px;
+    color: #999;
+}
+
+.weekly-song .title-song {
+    margin-bottom: 8px;
+}
+
+.weekly-song .view-count {
+    font-size: 13px;
+    color: #999;
+}
