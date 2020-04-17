@@ -1,0 +1,87 @@
+.wrap-all {
+    background-color: #4B4D69;
+    width: 450px;
+    padding: 20px 0;
+    border-radius: 35px;
+}
+
+.wrap-row {
+    display: grid;
+    grid-template-columns: 60px 380px;
+    width: 402px;
+    color: #FFF;
+    font-family: sans-serif;
+    padding: 10px 20px;
+}
+
+.wrap-row .img {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrap-row .img .img-backg {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1 {
+    background-color: #11CD6E;
+}
+
+.icon2 {
+    background-color: #FFD23F;
+}
+
+.icon3 {
+    background-color: #540D6E;
+}
+
+.icon4 {
+    background-color: #EE4266;
+}
+
+.wrap-row .img .img-icon {
+    background-image: url(./round-add-button.png);
+    background-size: cover;
+    background-position: center;
+    height: 50%;
+    width: 50%;
+}
+
+.wrap-row .content {
+    margin-left: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 28px;
+    width: 80%;
+}
+
+.wrap-txt {
+    height: 60px;
+    width: 500px;
+    margin: 10px 20px;
+}
+
+.wrap-txt .input {
+    height: 100%;
+    width: 382px;
+    margin: 0;
+    padding-left: 20px;
+    border-style: none;
+    border-radius: 10px;
+    background-color: #AAAA;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+::placeholder {
+    color: #FFF;
+    font-family: sans-serif;
+}

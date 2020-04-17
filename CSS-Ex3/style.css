@@ -1,0 +1,58 @@
+.title {
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 15px 0 5px 0;
+    border-bottom: 1px dashed grey;
+    width: 500px;
+}
+
+.tag {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 90px;
+    border: 0.5px solid gray;
+    border-radius: 15px;
+}
+
+.img {
+    background-image: url('https://loremflickr.com/50/50');
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    height: 70%;
+    width: 80%;
+    margin: 5px 5px;
+}
+
+.content {
+    flex-grow: 2;
+    width: 180px;
+    font-family: sans-serif;
+}
+
+.content .cnt-title {
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.content .cnt-subtitle {
+    font-size: 19px;
+    margin-left: 10px;
+    color: #CCC;
+}
+
+.icon {
+    color: red;
+    font-size: 30px;
+}
+
+.img-a,
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}

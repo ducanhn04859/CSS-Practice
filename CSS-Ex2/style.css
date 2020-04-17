@@ -1,0 +1,122 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    width: 600px;
+    background-color: #D5F5E3;
+    border-radius: 10px;
+}
+
+.content,
+.content1 {
+    font-family: sans-serif;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.title {
+    color: #727272;
+    font-size: 25px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+
+.sub-title {
+    color: #908E8E;
+    font-size: 15px;
+    margin: 0;
+}
+
+.sub-title1 {
+    color: #908E8E;
+    font-size: 18px;
+    margin: 0;
+}
+
+.icon1,
+.icon2,
+.icon3 {
+    width: 92px;
+    height: 92px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon1 .ic1 {
+    color: white;
+    font-size: 40px;
+}
+
+.icon1 .backg-ic1 {
+    background-color: #11CD6E;
+    margin: 10px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.icon2 .backg-ic2,
+.icon3 .backg-ic3 {
+    margin: 10px;
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon2 .icon_img {
+    width: 40px;
+    height: 40px;
+}
+
+.icon3 .icon_img {
+    width: 42px;
+    height: 40px;
+}
+
+.image {
+    display: flex;
+    height: 30px;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.image .img {
+    margin-right: 10px;
+    height: 100%;
+    width: 30px;
+    background-image: url('https://loremflickr.com/50/50');
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.image .img-plus {
+    margin-right: 10px;
+    height: 100%;
+    width: 30px;
+    background-color: grey;
+    border-radius: 5px;
+    color: #FFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-a,
+.content,
+.icon-a {
+    border-bottom: 1px solid gray;
+}
